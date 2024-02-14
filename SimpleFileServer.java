@@ -67,7 +67,7 @@ public class SimpleFileServer {
 							sock.close();
 
 					} catch (IOException e) {
-						// TODO Auto-generated catch block
+						// TODO Auto-generated catch block -- git teste
 						e.printStackTrace();
 
 					}
@@ -84,7 +84,7 @@ public class SimpleFileServer {
 			String hostName = SERVER;
 			int portNumber = SOCKET_PORT;
 
-			System.out.println("Conexão iniciada...");
+			System.out.println("Conexï¿½o iniciada...");
 			try (Socket echoSocket = new Socket(hostName, portNumber);
 
 			) {
@@ -120,7 +120,7 @@ public class SimpleFileServer {
 				System.err.println("Ocorreu um erro ao tentar conectar ao servidor " + hostName);
 				System.exit(1);
 			} catch (IOException e) {
-				System.err.println("Não foi possível conectar ao Servidor " + hostName);
+				System.err.println("Nï¿½o foi possï¿½vel conectar ao Servidor " + hostName);
 				System.exit(1);
 			}
 		}
