@@ -67,7 +67,7 @@ public class SimpleFileServer {
 							sock.close();
 
 					} catch (IOException e) {
-						// TODO Auto-generated catch block -- git teste
+						// TODO Auto-generated catch block
 						e.printStackTrace();
 
 					}
